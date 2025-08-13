@@ -1,0 +1,82 @@
+/* 基本設定 */
+body {
+  font-family: "Yu Gothic", sans-serif;
+  background-color: #f0f7f0;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #4b774b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+h2 {
+  border-bottom: 2px solid #4b774b;
+  padding-bottom: 0.3rem;
+}
+
+/* プロフィール */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile li {
+  margin: 0.5rem 0;
+}
+
+/* 詳しい説明 */
+.describe p {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* ボタン */
+button {
+  background-color: #4b774b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3b5f3b;
+}
+
+/* 非表示 */
+.hidden {
+  display: none;
+}
+
+/* フッター */
+footer {
+  background-color: #4b774b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+footer .site-name {
+  font-weight: bold;
+}
+
+footer .author {
+  font-style: italic;
+  color: #d4f0d4; /* 少し明るい緑でアクセント */
+}
+

@@ -3,10 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>つくもさんを紹介するページ</title>
+  <title>私の家族を紹介するページ</title>
+  <link rel="stylesheet" href="tsukumo.css">
 </head>
 <body>
-  <h1>テスト</h1>
-</body>
+  <header>
+    <h1>私の家族、つくもさんを紹介するページ</h1>
+  </header>
+
+  <main>
+    <!-- プロフィール -->
+    <section class="profile">
+      <h2>プロフィール</h2>
+      <ul>
+        <li><strong>名前：</strong>つくも</li>
+        <li><strong>種類：</strong>カラスヘビ(シマヘビの黒化型) (<em>Elaphe quadrivirgata</em>)</li>
+        <li><strong>性別：</strong>おそらくメス</li>
+        <li><strong>お迎えした日：</strong>2022年10月1日</li>
+        <li><strong>性格：</strong>お迎えしてから1年半は凄くビビりだったが、最近は自分から手に乗るようになった。</li>
+      </ul>
+    </section>
+
+    <!-- 詳細説明ー -->
+    <section class="describe">
+      <h2>つくもさんとカラスヘビについて</h2>
+      <p>つくもさんはカラスヘビという蛇で、日本でよくみられるシマヘビと同種です。シマヘビの中でも色素異常で黒くなっている個体をカラスヘビと呼びます。</p>
+      <p>一般的な黒い蛇というと、ギラギラとした黒が特徴のカリフォルニアキングスネークが挙げられます。それと対照的に、カラスヘビはしっとりとした落ち着いた黒が特徴です。自分はそこに惚れました。</p>
+      <p>食事は主に冷凍マウスを解凍したものを与えており、おおよそ10日に1回のペースです。</p>
+      <p>体長はおよそ120cmくらいだと思われます。正確に測るのは不可能でした。</p>
+    </section>
+
+    <!-- 豆知識 -->
+    <section class="facts">
+      <h2>蛇の豆知識</h2>
+      <button id="fact-btn">豆知識を表示</button>
+      <p id="fact" class="hidden"></p>
+    </section>
+
+    <!-- クイズ -->
+    <section class="quiz">
+      <h2>蛇に関するクイズ</h2>
+      <p>蛇にはまぶたがあるでしょうか？</p>
+      <button class="quiz-btn" data-answer="no">ない</button>
+      <button class="quiz-btn" data-answer="yes">ある</button>
+      <p id="quiz-result"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 <span class="site-name">つくもさんの紹介ページ</span> | 作成者: <span class="author">すろーぷ</span></p>
+  </footer>
+
+  <script src="tsukumo.js"></script>
+ </body>
 </html>
